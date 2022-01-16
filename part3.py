@@ -18,4 +18,13 @@ Enter the height: 3
 
 """
 
-#write your code here 
+
+base = int(input("Enter the base: "))
+height = int(input("Enter the height: "))
+row = ""
+column = ""
+
+for i in range(1, base+1):
+  row += ('*' * 1)
+for i in range(1, height+1):
+  print(row)
